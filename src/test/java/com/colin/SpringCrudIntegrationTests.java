@@ -41,7 +41,7 @@ class SpringCrudIntegrationTests {
 	@Autowired
 	CategoryRepository categoryRepository;
 	
-	/*@BeforeEach
+	@BeforeEach
 	public void getContext() {
 		//mvc = webAppContextSetup(webApplicationContext).build();
 		
@@ -90,6 +90,6 @@ class SpringCrudIntegrationTests {
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-	}*/
+	}
 
 }

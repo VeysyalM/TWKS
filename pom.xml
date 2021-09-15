@@ -156,8 +156,6 @@
 <exclude>**/com/colin/filter/*</exclude>
 <exclude>**/com/colin/security/*</exclude>
 <exclude>**/com/colin/aspect/*</exclude>
- <exclude>**/com.colin.filter</exclude>
-  <exclude>**/com/colin/repo</exclude>
 </excludes>
 </configuration>
 </plugin>

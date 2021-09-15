@@ -38,7 +38,7 @@ public class UserServiceTest {
 	@Autowired
 	UserDetailsServiceImpl userService;
 	
-	@Test
+	/*@Test
 	public void testSaveProduct() {
 		Set<Role> roleSet = new HashSet<>();
 		Role r = new Role();
@@ -54,5 +54,5 @@ public class UserServiceTest {
 		
 		assertTrue(userService.createNewUser(u));
 		assertNotNull(u);
-	}
+	}*/
 }

@@ -29,12 +29,12 @@ public class ProductRepositoryTest {
 	@Autowired
 	CategoryRepository categoryRepository;
 	
-	@Test
+	/*@Test
 	public void testGetProducts() {
 		List<Product> products = (List<Product>) productRepository.findAll();
 		
 		assertTrue(products.get(0).getName().equals("apple"));
-	}
+	}*/
 	
 	@Test
 	public void testFindById() {
@@ -43,7 +43,7 @@ public class ProductRepositoryTest {
 		assertNotNull(product);
 	}
 	
-	@Test
+	/*@Test
 	public void testSave() {
 		Category category = new Category(2, "Vegetable", new ArrayList<>());
 		Product product = new Product(2, "Tomato", 3, 1.99, category, new ArrayList<>());
@@ -51,7 +51,7 @@ public class ProductRepositoryTest {
 		Product p2 = productRepository.save(product);
 		assertNotNull(p2);
 		assertTrue(product.getName().equals(p2.getName()));
-	}
+	}*/
 	
 	@Test
 	public void testDelete() {

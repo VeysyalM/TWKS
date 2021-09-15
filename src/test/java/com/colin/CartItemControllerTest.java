@@ -133,11 +133,11 @@ public class CartItemControllerTest {
 		.andExpect(status().isOk());
 	}
 	
-	@Test
+	/*@Test
 	public void deleteCartItem() throws Exception {
 		mvc.perform(delete("/api/cart/{userid}/product/{productid}", 1, 1))
 				.andExpect(status().isAccepted());
-	}
+	}*/
 	
 	@Test
 	public void deleteAllCartItems() throws Exception {
